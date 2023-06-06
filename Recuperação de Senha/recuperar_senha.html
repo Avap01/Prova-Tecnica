@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tela de Recuperação de Senha</title>
+    <style>
+        body {
+            background-color: #F3F6FA;
+            font-family: Arial, sans-serif;
+            color: #2D2D2D;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            background-color: #FFFFFF;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type=email] {
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            box-sizing: border-box;
+            background-color: #f1f1f1;
+        }
+
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #2C3E50;
+        }
+
+
+        #Inicio {
+
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+
+        }
+
+        #Inicio:hover {
+
+            background-color: #2C3E50;
+        }
+
+        body {
+
+            background-image: linear-gradient(to left,
+                    #020024,
+                    #277909 35%,
+                    #00d4ff 100%)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Recuperação de Senha</h1>
+        <form action="" method="POST">
+            <label for="email">Informe o seu e-mail:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <input type="submit" value="Enviar">
+            <a id="Inicio" href="../Login/index.html">Voltar</a>
+        </form>
+    </div>
+</body>
+
+</html>
